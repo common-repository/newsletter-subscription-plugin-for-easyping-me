@@ -1,0 +1,186 @@
+@media screen and (max-width: 1240px) {
+    .epme-sidebar {
+        padding: 84px 0 0 12px;
+    }
+}
+@media screen and (max-width: 1120px) {
+    .epme-sidebar {
+        display: flex;
+        width: 100%;
+        padding: 0;
+        justify-content: space-between;
+    }
+    .epme-card-sidebar {
+        flex-basis: 48%;
+    }
+    .epme__cont {
+        display: block;
+    }
+    .mdl-cell--9-col, .mdl-cell--9-col-desktop.mdl-cell--9-col-desktop {
+        width: calc(100% - 16px);
+    }
+}
+@media screen and (max-width: 900px) {
+    .epme-card__header--dashboard {
+        display: none;
+    }
+    .epme-card--wide .epme-card__cont {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 850px) {
+    .epme-card--channels {
+        flex-basis: 47%;
+    }
+}
+@media screen and (max-width: 720px) {
+    .epme-cont .epme-table {
+        background: none;
+        border: none;
+    }
+    .epme-cont .epme-table thead {
+        display: none;
+    }
+    .epme-cont .epme-table tr {
+        background: #fff;
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+        margin: 7px 0 7px;
+        justify-content: space-between;
+        padding: 13px 16px 10px;
+    }
+    .epme-cont .epme-table td {
+        align-self: baseline;
+        border: none;
+        height: auto;
+        padding: 0 18px 6px 0;
+    }
+    .epme-cont .epme-table td:last-child {
+        align-self: initial;
+    }
+    .epme-cont .epme-table td:last-child .mdl-button {
+        margin-top: 5px;
+    }
+    .epme-cont .epme-table .epme-social-img {
+        vertical-align: bottom;
+    }
+    .epme-table__new-caption {
+        color: #aaa;
+        display: block;
+        margin: 3px 0 1px;
+        padding-right: 5px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .epme-channels-tbl__actions {
+        min-width: 130px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .epme-table {
+        white-space: normal;
+    }
+}
+@media screen and (max-width: 550px) {
+    .epme-modal__cont .mdl-dialog__content {
+        padding: 20px 14px 20px;
+    }
+    .epme-modal__cont .mdl-dialog__title {
+        padding: 20px 14px 20px;
+        font-size: 2.1rem;
+    }
+    .epme-subscriber__prop {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 543px) {
+    .epme-card--dashboard {
+        margin-right: 16px;
+    }
+    .epme-sidebar {
+        flex-wrap: wrap;
+    }
+    .epme-card-sidebar {
+        flex-basis: 100%;
+    }
+    .mdl-tabs__tab-bar {
+        height: 68px;
+    }
+    .mdl-tabs__tab {
+        height: 68px;
+        line-height: 24px;
+    }
+    .mdc-tab__icon {
+        font-size: 30px;
+    }
+    .epme-channels-tbl {
+        display: block;
+    }
+    .epme-table .epme-channels-tbl__tr {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .epme-table .epme-channels-tbl__tr td {
+        height: auto;
+        border-top: none;
+        border-bottom: none;
+    }
+    .epme-channels-tbl__img-coll {
+        flex-basis: 10%;
+    }
+    .epme-channels-tbl__title {
+        flex-shrink: 2;
+    }
+    .epme-channels-tbl__img-coll {
+        padding-left: 12px!important;
+    }
+    .mdl-card__supporting-text {
+        width: auto;
+    }
+    .epme-card--channels {
+        flex-basis: 49%;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 508px) {
+    .epme-channels__btn {
+        margin-bottom: 10px;
+    }
+    .epme-channels-tbl__actions {
+        padding-top: 0!important;
+    }
+
+}
+@media screen and (max-width: 490px) {
+    .epme-subscribers__item  .epme-subscribers__name {
+        padding: 12px 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .epme-card--channels {
+        flex-basis: 100%;
+    }
+    .epme-card__header--channels {
+        height: 69px;
+        padding: 28px 0 0;
+    }
+    .epme-card__text--channels {
+        min-height: inherit;
+    }
+    .epme-cont .epme-table tr {
+        justify-content: normal;
+    }
+    .epme-cont .epme-table td {
+        padding: 0 26px 6px 0;
+    }
+}
+@media screen and (max-width: 330px) {
+    .epme-cont .epme-table tr {
+        display: block;
+    }
+    .epme-cont .epme-table td {
+        display: block;
+    }
+}
